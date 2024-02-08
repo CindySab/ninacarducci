@@ -11,37 +11,47 @@
 		href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
 		rel="stylesheet">
 	<meta charset="UTF-8">
-	<title>Nina Carducci, photographe à Bordeaux</title>
-    <script type="application/ld+json">
+	<title>Nina Carducci, Photographe à Bordeaux</title>
+	<script type="application/ld+json">
 		{
-			"@context": "https://schema.org",
-			"@type": "Photographer",
-			"name": "Nina Carducci",
-			"address": {
-				"@type": "PostalAddress",
-				"streetAddress": "68 avenue Alsace-Lorraine",
-				"addressLocality": "Bordeaux",
-				"postalCode": "33200",
-				"addressCountry": "FRANCE"
+		"@context": "http://schema.org",
+		"@type": "LocalBusiness",
+		"name": "Nina Carducci, Photographe",
+		"address": {
+			"@type": "PostalAddress",
+			"streetAddress": "68 avenue Alsace Lorraine",
+			"addressLocality": "Bordeaux",
+			"postalCode": "33200",
+			"addressCountry": "France"
+		},
+		"priceRange": "50€ à 400€",
+		"telephone": "+33556677889",
+		"openingHours": [
+			"Mo-Fr 10:00-19:00"
+		],
+		"url": "https://cindysab.github.io/ninacarducci/",
+		"image": "https://cindysab.github.io/ninacarducci/assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.webp",
+		"image": "https://cindysab.github.io/ninacarducci/assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash.webp",
+		"image": "https://cindysab.github.io/ninacarducci/assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.webp",
+		"service": [
+			{
+			"@type": "Service",
+			"name": "Retouches",
+			"price": "50€/photo"
 			},
-			"url": "https://cindysab.github.io/ninacarducci/",
-			"telephone": "0556677889",
-			"openingHoursSpecification": [
-				{
-					"@type": "OpeningHoursSpecification",
-					"dayOfWeek": [
-						"Monday",
-						"Tuesday",
-						"Wednesday",
-						"Thursday",
-						"Friday"
-					],
-					"opens": "10:00",
-					"closes": "19:00"
-				}
-			]
+			{
+			"@type": "Service",
+			"name": "Shooting photo",
+			"price": "350€/demi-journée"
+			},
+			{
+			"@type": "Service",
+			"name": "Album photos",
+			"price": "400€/album A4"
+			}
+		]
 		}
-	</script>
+		</script>
 	<meta name="description" content="Photographe sur Bordeaux, je vous présente mon travail, mes photos et mes tarifs">
 	<script defer src="./assets/bootstrap/bootstrap.bundle.min.js"></script>
 	<script src="./assets/jquery/jquery.js"></script>
